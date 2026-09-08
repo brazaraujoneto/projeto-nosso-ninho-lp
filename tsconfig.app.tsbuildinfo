@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/config/event.ts","./src/lib/supabase.ts","./src/App.vue","./src/components/AdminPanel.vue","./src/components/EventSection.vue","./src/components/GiftListSection.vue","./src/components/HeroSection.vue","./src/components/MessageBoardSection.vue","./src/components/StorySection.vue"],"version":"5.9.3"}
