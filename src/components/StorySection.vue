@@ -7,6 +7,7 @@ defineProps<{ active: boolean }>()
 const milestones = [
   { date: '2013', title: 'O Início de uma amizade', text: 'Desde o início, a energia da nossa amizade sempre bateu positivamente.' },
   { date: '28/10/2024', title: 'Depois de tantos anos', text: 'Depois de anos sem nos falar, nossos caminhos se cruzaram novamente e voltamos a conversar.' },
+  { date: '04/11/2024', title: 'Braz botou pra cima', text: 'Abordagem: mano qual teu problema, tu é morta de linda e fica com uns carinhas que pelo amor, fico só pensando quando tu real vai ter um cara bonito como eu, ou quando tu vai querer formar esse casal comigo?' },
   { date: '09/01/2025', title: 'O Pedido de Namoro', text: 'O dia em que nossa amizade ganhou um novo significado e começamos a escrever nossa história juntos.' },
   { date: '2025', title: 'Unimos as escovas de dentes', text: 'Decidimos unir nossas vidas e começar a construir nosso próprio caminho juntos.' },
   { date: '2025', title: 'Duas mudanças em busca do nosso lar', text: 'Mudamos duas vezes durante o ano, enfrentando desafios e construindo nossa vida lado a lado.' },
