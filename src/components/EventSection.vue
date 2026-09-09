@@ -24,19 +24,21 @@ defineProps<{ active: boolean }>()
           </div>
         </div>
 
-        <!-- Minimalist map placeholder -->
+        <!-- Foto do local -->
         <div class="relative h-32 rounded-xl bg-sage/5 border border-stone mb-4 overflow-hidden">
-          <div class="absolute inset-0 flex items-center justify-center">
-            <svg class="w-full h-full" viewBox="0 0 300 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 60 Q75 30 150 60 T300 60" stroke="#E8E6E1" stroke-width="2" fill="none"/>
-              <path d="M0 80 Q75 50 150 80 T300 80" stroke="#E8E6E1" stroke-width="2" fill="none"/>
-              <path d="M50 0 L50 120" stroke="#E8E6E1" stroke-width="1"/>
-              <path d="M200 0 L200 120" stroke="#E8E6E1" stroke-width="1"/>
-              <circle cx="150" cy="60" r="6" fill="#5F7161"/>
-              <circle cx="150" cy="60" r="14" fill="#5F7161" fill-opacity="0.15"/>
-            </svg>
-          </div>
-          <div class="absolute bottom-2 right-2 text-xs text-ink-light bg-cream/80 px-2 py-1 rounded">Ver no mapa</div>
+          <img 
+            src="/fotos/vistariocafe.jpeg" 
+            alt="Foto do local" 
+            class="w-full h-full object-cover"
+          />
+          <a 
+            href="https://maps.app.goo.gl/uAy4UNNN7TtTaqX79" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="absolute bottom-2 right-2 text-xs text-ink-light bg-cream/80 hover:bg-cream px-2 py-1 rounded cursor-pointer transition-colors"
+          >
+            Ver no mapa
+          </a>
         </div>
 
         <p class="font-medium text-ink">{{ eventConfig.eventAddress }}</p>

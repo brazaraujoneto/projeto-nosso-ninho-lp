@@ -5,11 +5,18 @@ import { eventConfig } from '../config/event'
 defineProps<{ active: boolean }>()
 
 const milestones = [
-  { date: '2019', title: 'O Primeiro Encontro', text: 'Foi num café simples, mas foi onde tudo começou.' },
-  { date: '2020', title: 'Primeira Viagem Juntos', text: 'Conhecemos a praia e descobrimos que éramos inseparáveis.' },
-  { date: '2022', title: 'Mudança Juntos', text: 'Decidimos dividir o mesmo teto e a mesma vida.' },
-  { date: '2025', title: 'O Pedido', text: 'De joelhos, sob as estrelas, veio o sim que mudou tudo.' },
-  { date: '2026', title: 'O Grande Dia', text: 'Agora é a hora de celebrar com quem amamos.' },
+  { date: '2013', title: 'O Início de uma amizade', text: 'Desde o início, a energia da nossa amizade sempre bateu positivamente.' },
+  { date: '28/10/2024', title: 'Depois de tantos anos', text: 'Depois de anos sem nos falar, nossos caminhos se cruzaram novamente e voltamos a conversar.' },
+  { date: '09/01/2025', title: 'O Pedido de Namoro', text: 'O dia em que nossa amizade ganhou um novo significado e começamos a escrever nossa história juntos.' },
+  { date: '2025', title: 'Unimos as escovas de dentes', text: 'Decidimos unir nossas vidas e começar a construir nosso próprio caminho juntos.' },
+  { date: '2025', title: 'Duas mudanças em busca do nosso lar', text: 'Mudamos duas vezes durante o ano, enfrentando desafios e construindo nossa vida lado a lado.' },
+  { date: '2025', title: 'Nosso primeiro carrinho', text: 'Compramos nosso primeiro carro. Antigo, mas guerreiro, ótimo e cheio de histórias para viver com a gente.' },
+  { date: '31/12/2025', title: 'Nosso primeiro Ano Novo em casa', text: 'Passamos nosso primeiro Ano Novo juntos em casa, celebrando tudo que estávamos construindo.' },
+  { date: '2025', title: 'Nossa família Braz, Aldrey e Zoe', text: 'Assumimos de coração nossa família, junto com todos os nossos bichinhos que também fazem parte dela.' },
+  { date: '03/2026', title: 'Nossa primeira viagem juntos', text: 'Vivemos nossa primeira viagem juntos, para São Paulo e Diadema, criando mais uma memória para guardar.' },
+  { date: '2026', title: 'Nosso Lar oficial', text: 'Finalmente nos mudamos para o nosso verdadeiro lar e começamos uma nova fase da nossa história.' },
+  { date: '2026', title: 'Nosso escritório e o quarto da Zoe', text: 'Montamos nosso escritório e preparamos o cantinho da Zoe super rosa como a Aldrey sempre quis, deixando nossa casa cada vez mais com a nossa cara.' },
+  { date: '12/09/2026', title: 'O Pedido de Casamento', text: 'Uma noite romântica, um grande SIM e a decisão de viver juntos em comunhão, amor e parceria. Aqui começa o nosso noivado.' },
 ]
 
 const storyPhotos = eventConfig.storyPhotos

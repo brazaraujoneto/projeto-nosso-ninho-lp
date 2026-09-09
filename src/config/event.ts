@@ -5,25 +5,25 @@
 export const eventConfig = {
   // Nomes dos noivos
   brideName: 'Aldrey',
-  groomName: 'Seu Nome',
+  groomName: 'Braz',
 
   // Data do evento (ano, mês [0-11], dia, hora, minuto)
   eventDate: new Date(2026, 11, 15, 16, 0),
 
   // Data, horário e local do evento
-  eventDateLabel: '15 de Dezembro, 2026',
-  eventTimeLabel: '16h00',
-  eventAddress: 'Salão de Festas Jardim das Flores',
-  eventAddressDetail: 'Rua das Acácias, 123 — Jardim Botânico, São Paulo/SP',
+  eventDateLabel: '10 de Outubro, 2026',
+  eventTimeLabel: '15h00',
+  eventAddress: 'Vista Rio Café Matriz - Ponta Negra',
+  eventAddressDetail: 'Av. Coronel Teixeira, 3080 - Ponta Negra, Manaus - AM, 69037-000',
 
   // Endereço alternário para entrega de presentes físicos
   deliveryAddress: 'Entrega de Presentes',
-  deliveryAddressDetail: 'Av. Paulista, 456 — Apto 101, São Paulo/SP',
-  deliveryNote: 'Entregas de segunda a sexta, das 9h às 18h',
+  deliveryAddressDetail: 'Condomínio Residencial Ópera de Paris, bloco 2, apto 204.',
+  deliveryNote: 'Av. Cosme Ferreira, 7311 - Coroado, Manaus - AM, 69082-230',
 
   // Chave PIX para a Opção A
-  pixKey: 'seu-email@exemplo.com',
-  pixName: 'Seu Nome e Aldrey',
+  pixKey: 'cristina-barroso@jim.com',
+  pixName: 'Aldrey e Braz',
 
   // Listas de presentes externos (Opção B - Vales)
   externalGiftLists: [
@@ -33,13 +33,13 @@ export const eventConfig = {
       description: 'Gere créditos e escolha presentes da lista Amazon.',
     },
     {
-      name: 'Lista Magazine Luiza',
+      name: 'Lista Bemol',
       url: 'https://www.magazineluiza.com.br',
       description: 'Vales-presente e créditos para a casa nova.',
     },
     {
-      name: 'Lista Camicado',
-      url: 'https://www.camicado.com.br',
+      name: 'Lista Mercado Livre',
+      url: 'https://www.mercadolivre.com.br',
       description: 'Vales e produtos para a casa nova.',
     },
   ],
@@ -52,26 +52,26 @@ export const eventConfig = {
 
   // Fotos da tela INÍCIO (carrossel lateral, 6 fotos)
   heroPhotos: [
-    '/fotos/inicio1.jpg',
-    '/fotos/inicio2.jpg',
-    '/fotos/inicio3.jpg',
-    '/fotos/inicio4.jpg',
-    '/fotos/inicio5.jpg',
-    '/fotos/inicio6.jpg',
+    '/fotos/Foto1.jpeg',
+    '/fotos/Foto2.jpeg',
+    '/fotos/Foto3.jpeg',
+    '/fotos/Foto4.jpeg',
+    '/fotos/Foto5.jpeg',
+    '/fotos/Foto6.jpeg',
   ],
 
   // Fotos da tela HISTÓRIA (capa flutuante, 4 fotos em retrato)
   storyPhotos: [
-    '/fotos/historia1.jpg',
-    '/fotos/historia2.jpg',
-    '/fotos/historia3.jpg',
-    '/fotos/historia4.jpg',
+    '/fotos/Foto2.jpeg',
+    '/fotos/Foto4.jpeg',
+    '/fotos/Foto5.jpeg',
+    '/fotos/Foto6.jpeg',
   ],
 
   // Fotos da tela RECADOS (2 fotos)
   messagePhotos: [
-    '/fotos/recado1.jpg',
-    '/fotos/recado2.jpg',
+    '/fotos/Foto4.jpeg',
+    '/fotos/Foto6.jpeg',
   ],
 }
 

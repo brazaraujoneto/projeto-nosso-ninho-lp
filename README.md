@@ -1,4 +1,4 @@
-# 💍 Chá de Casa Nova & Noivado [Seu Nome & Aldrey]
+# 💍 Chá de Casa Nova & Noivado [Braz & Aldrey]
 
 Uma Landing Page (SPA) responsiva e mobile-first desenvolvida para organizar e celebrar nosso Chá de Casa Nova e Noivado. O projeto centraliza informações do evento, nossa história e uma lista de presentes interativa em uma interface limpa e romântica.
 
@@ -28,4 +28,4 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 ### Passos para instalação
 1. Faça o clone do repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone https://github.com/brazaraujoneto/projeto-nosso-ninho-lp.git

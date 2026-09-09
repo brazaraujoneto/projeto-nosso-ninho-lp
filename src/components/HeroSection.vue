@@ -106,7 +106,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <p class="text-sage text-sm tracking-[0.3em] uppercase mb-3">Nós vamos casar!</p>
+    <p class="text-sage text-sm tracking-[0.3em] uppercase mb-3">Agora somos Noivos!</p>
 
     <h1 class="font-serif text-3xl md:text-4xl text-center text-ink leading-tight max-w-md mb-2">
       Chá de Casa Nova &amp; Noivado

@@ -63,7 +63,7 @@ onUnmounted(() => {
     <div v-else>
       <header class="sticky top-0 z-40 bg-cream/90 backdrop-blur-md border-b border-stone">
         <div class="max-w-md mx-auto flex items-center justify-center px-6 py-3">
-          <p class="font-serif text-sm text-sage">A &amp; S</p>
+          <p class="font-serif text-sm text-sage">Aldrey &amp; Braz</p>
         </div>
       </header>
 
